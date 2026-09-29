@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MotoGP - Svět rychlosti</title>
+
+    <!-- 1. Google Fonts (písmo Montserrat z výuky) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+
+    <!-- 2. Font Awesome CDN (ikony z výuky) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- 3. Propojení s CSS souborem -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGAČNÍ MENU (PVA ZADÁNÍ) -->
+    <nav id="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-motorcycle"></i> Moto<span class="text-primary">GP</span>
+        </div>
+        <ul>
+            <li><a href="#home"><i class="fa-solid fa-house"></i> Úvod</a></li>
+            <li><a href="#jezdci"><i class="fa-solid fa-user-ninja"></i> Jezdci</a></li>
+            <li><a href="#zavody"><i class="fa-solid fa-flag-checkered"></i> Závody</a></li>
+            <li><a href="#kontakt"><i class="fa-solid fa-envelope"></i> Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <!-- HLAVNÍ OBSAH WEBU (SÉMANTICKÉ TAGY) -->
+    <main>
+
+        <!-- ÚVODNÍ SEKCÉ -->
+        <section id="home">
+            <h1><i class="fa-solid fa-gauge-high"></i> Královská třída motocyklů</h1>
+            <p>Vítejte na fanouškovském webu MotoGP! Sledujte nejrychlejší jezdce planety, extrémní náklony v zatáčkách a neuveritelné souboje o titul mistra světa.</p>
+        </section>
+
+        <!-- SEKCÉ JEZDCI -->
+        <section id="jezdci">
+            <h2><i class="fa-solid fa-trophy"></i> Hvězdy MotoGP</h2>
+            <div class="grid">
+                <div class="card">
+                    <i class="fa-solid fa-motorcycle card-icon"></i>
+                    <h3>Marc Márquez</h3>
+                    <p>Osminásobný mistr světa známy svými agresivními průjezdy zatáček.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-motorcycle card-icon"></i>
+                    <h3>Francesco Bagnaia</h3>
+                    <p>Šampion týmu Ducati a dravý ital na nejrychlejší motorce roštu.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-motorcycle card-icon"></i>
+                    <h3>Jorge Martín</h3>
+                    <p>Španělský "Martinator" bojující vždy o pole position.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEKCÉ ZÁVODY -->
+        <section id="zavody">
+            <h2><i class="fa-solid fa-flag-checkered"></i> Slavné okruhy</h2>
+            <ul>
+                <li><i class="fa-solid fa-stopwatch"></i> <strong>Assen (Nizozemsko)</strong> – Legendární Katedrála rychlosti</li>
+                <li><i class="fa-solid fa-stopwatch"></i> <strong>Mugello (Itálie)</strong> – Rychlá trať s nejdelší cílovou rovinkou</li>
+                <li><i class="fa-solid fa-stopwatch"></i> <strong>Sachsenring (Německo)</strong> – Technická trať plná levých zatáček</li>
+            </ul>
+        </section>
+
+        <!-- SEKCÉ KONTAKT -->
+        <section id="kontakt">
+            <h2><i class="fa-solid fa-envelope"></i> Napište nám</h2>
+            <p>Chcete se přidat k českému fanklubu? Napište nám na <strong class="text-primary">motomotofan@motogp.cz</strong>.</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 MotoGP</p>
+    </footer>
+
+</body>
+</html>
